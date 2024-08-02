@@ -1,0 +1,56 @@
+// Base
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import './base/vars';
+@import './base/reset';
+@import './base/base';
+
+
+
+// Blocks
+
+		//General
+@import'./blocks/title';
+
+		// Nav
+@import './blocks/nav';
+@import './blocks/logo';
+@import './blocks/_navigation-list';
+
+
+		// Header
+@import './blocks/header';
+@import './blocks/form';
+@import './blocks/button';
+
+
+		// Clients
+@import './blocks/clients';
+
+		// Objects
+@import './blocks/objects';
+@import './blocks/img-card';
+@import './blocks/card-info';
+
+		// cta
+@import './blocks/cta';
+
+		// Serving
+
+@import './blocks/serving';
+
+		// Benefits
+		
+@import './blocks/benefits';
+
+		// Testimonials
+
+@import './blocks/testimonials';
+
+		// cta-footer
+
+@import './blocks/cta-footer';
+
+		// footer
+
+@import './blocks/footer';

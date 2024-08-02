@@ -1,0 +1,47 @@
+.cta-footer {
+	margin-top: 55px;
+	min-height: 547px;
+	background: url('../../img/footer/bg-footer.svg') no-repeat center/ cover;
+}
+
+.cta-footer__block {
+	position: relative;
+	display: flex;
+}
+
+.cta-footer__block::after {
+	position: absolute;
+	content: url('../../img/footer/oval-footer.svg');
+	top: 175px;
+	left: 455px;
+	z-index: 0;
+}
+
+.cta-footer__left {
+	max-width: 359px;
+	color: #fff;
+	margin-top: 155px;
+}
+
+.cta-footer__left p {
+	margin-bottom: 30px;
+}
+
+.cta-footer__img-block {
+
+
+	img{
+		position: absolute;
+		top: 0;
+		left: 533px;
+		width: 478px;
+		height: 547px;
+		z-index: 1;
+	}
+}
+
+
+
+.cta-footer__title {
+	margin-bottom: 15px;
+}

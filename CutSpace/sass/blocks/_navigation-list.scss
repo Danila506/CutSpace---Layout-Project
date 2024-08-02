@@ -1,0 +1,18 @@
+.navigation-list {
+	ul{
+		display: flex;
+		column-gap: 42px;
+		align-items: center;
+	}
+	a{
+		&:hover{
+			color: $accent-color;
+			transition: 0.2s all ease;
+		}
+
+		&.active{
+			color: $accent-color;
+			font-weight: 700;
+		}
+	}
+}
